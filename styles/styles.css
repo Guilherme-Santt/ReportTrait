@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    color: 0;
+}
+body{
+    background-color: white;
+    height: 100vh;
+}
+#btn-start{
+    border: none;
+    cursor: pointer;
+    color: rgba(7, 129, 243, 0.747);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.0rem;
+    transition: 0.2s;
+}
+#btn-start:hover{
+    opacity: 10;
+}
+body{
+    display: flex;
+    align-items: center;
+}
+#filterSelect{
+    display: flex;
+    gap: 20px;   
+}
+#Search{
+    margin-top: 20px;
+}
+select{
+    background-color: white;
+    font-size: 1.2rem;
+    color: #979797;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#container{
+    border-radius: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(174, 231, 248);
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+#infosTable{
+    transition: 0.2s;
+    background-color: white;
+    color: black;
+    width: 1000px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 18px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+
+}
+#valoresTotais{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 30px;
+}
+.cards{
+    display: grid;
+    background-color: red;
+    align-items: center;
+}
+#valoresTotais span{
+    padding: 15px 50px;
+    font-size: 1.3rem;
+    background-color: #eeeaea;
+    color: black;
+    border-radius: 13px;
+}
+#infosTable table{
+    width: 1000px;
+
+}
+th, td{
+    margin: 0;
+    border: 1px solid black;
+    
+}
